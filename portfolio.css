@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.header{
+	width: 95%;
+	margin: auto;
+}
+.wrapper{
+	width: 95%;
+	margin: auto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+} 
+.header h1{
+	font-weight: lighter;
+	letter-spacing: 3px;
+}
+.header ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+.header li{
+	padding: 20px;
+}
