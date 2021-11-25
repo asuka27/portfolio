@@ -12,7 +12,6 @@
 	justify-content: space-between;
 } 
 .header h1{
-	font-family: 'Arvo', serif;	
 	font-weight: lighter;
 	letter-spacing: 3px;
 }
@@ -22,8 +21,8 @@
 	list-style: none;
 }
 .header li{
-	font-family: 'Arvo', serif;	
 	padding: 20px;
+	letter-spacing: 2px;
 }
 #home{
 	width: 100%;
@@ -50,4 +49,31 @@
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+#profile{
+	padding-top: 100px;
+}
+#profile h2{
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 3px;
+}
+#profile table{
+	width: 70%;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 50px 20px;
+}
+#profile td{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+	padding: 15px 0;
+	letter-spacing: 2px;
+}
+.profile-item{
+	border-top: 3px solid #a9a9a9;
+}
+.profile-detail{
+	border-top: 3px solid #d3d3d3;
 }
