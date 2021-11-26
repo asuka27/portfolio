@@ -32,11 +32,12 @@
 	background-position: bottom center;
 }
 #home h1{
-	font-size: 35px;
+	font-size: 50px;
+	font-family: 'EB Garamond', serif;
 	font-weight: lighter;
-	letter-spacing: 5px;
+	letter-spacing: 8px;
 	position: absolute;
-	top: 20%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
