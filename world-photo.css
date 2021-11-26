@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+}
+.header h1{
+	color: #fff;
+	font-family: 'Zen Old Mincho', serif;	
+	font-weight: lighter;
+	background-color: #000;
+	padding: 20px;
+}
