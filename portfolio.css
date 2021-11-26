@@ -40,10 +40,10 @@
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-#profile{
+.content{
 	padding-top: 100px;
 }
-#profile h2{
+h2{
 	font-weight: lighter;
 	text-align: center;
 	letter-spacing: 3px;
@@ -66,4 +66,36 @@
 }
 .profile-detail{
 	border-top: 3px solid #d3d3d3;
+}
+#work{
+	height: 500px;
+}
+.work-content{
+	width: 200px;
+	margin: auto;
+	border: 1px solid #444;
+	padding: 25px;
+}
+.work-content a{
+	text-decoration: none;
+}
+.work-content h4{
+	color: #000;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+.work-content img{
+	width: 200px;
+	height: 150px;
+}
+.work-content p{
+	color: #000;
+	font-size: 13px;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 0;
 }
