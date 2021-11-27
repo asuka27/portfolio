@@ -2,10 +2,36 @@
 body{
 	margin: 0;
 }
-.header h1{
-	color: #fff;
-	font-family: 'Zen Old Mincho', serif;	
-	font-weight: lighter;
-	background-color: #000;
+.wrapper{
+	width: 90%;
+	margin: auto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title h3{
+	font-family: 'Arvo', serif;	
+	letter-spacing: 1px;
+	user-select: none;
+}
+.header ul{
+	display: flex;
+	list-style: none;
+}
+.header li{
 	padding: 20px;
+	font-family: 'Arvo', serif;	
+}
+.header a{
+	color: #000;
+	text-decoration: none;
+	user-select: none;
+}
+.header a:hover{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	user-select: none;
 }
