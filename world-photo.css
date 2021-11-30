@@ -35,3 +35,51 @@ body{
 	text-decoration: none;
 	user-select: none;
 }
+#home{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 200px;
+}
+.home-content h1{
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	padding-top: 150px;
+}
+.home-content ul{
+	list-style: none;
+	padding-top: 220px;
+	padding-left: 0;
+}
+.home-content li{
+	padding-top: 10px;
+}
+#home img{
+	width: 70%;
+	height: 800px;
+}
+.main{
+	display: flex;
+	padding-bottom: 150px;
+}
+.main-content h2{
+	font-family: 'Arvo', serif;	
+	font-weight: lighter;
+	border-left: 6px solid #bdb76b;
+	padding-left: 10px;
+}
+.main-content img{
+	width: 600px;
+	height: 404px;
+}
+.explanation{
+	padding-top: 50px;
+	padding-left: 10%;
+}
+.explanation p{
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	font-weight: bold;
+}
+.explanation .detail-explanation{
+	font-size: 13px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	font-weight: bold;
+}
