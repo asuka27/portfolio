@@ -11,7 +11,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.header{
 		display: block;
 		height: 80px;
@@ -22,7 +22,7 @@ body{
 	letter-spacing: 1px;
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.header h3{
 		font-size: 12px;
 		font-family: 'Arvo', serif;	
@@ -35,7 +35,7 @@ body{
 	display: flex;
 	list-style: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.header ul{
 		display: flex;
 		justify-content: space-around;
@@ -49,7 +49,7 @@ body{
 	font-weight: bold;
 	padding: 20px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.header li{
 		font-size: 6px;
 		padding: 5px;
@@ -71,7 +71,7 @@ body{
 	justify-content: space-between;
 	padding-bottom: 200px;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:959px){
 	.home{
 		display: block;
 		padding: 0;
@@ -82,7 +82,7 @@ body{
 	padding-top: 150px;
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.home h1{
 		font-size: 11px;
 		font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -94,7 +94,7 @@ body{
 	width: 100%;
 	height: 800px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.home img{
 		width: 479px;
 		height: 200px;
@@ -105,7 +105,7 @@ body{
 	justify-content: center;
 	padding-bottom: 150px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.main{
 		display: block;
 		padding: 50px 0;
@@ -114,7 +114,7 @@ body{
 .main-content{
 	padding: 0 100px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.main-content{
 		padding: auto;
 	}
@@ -123,7 +123,7 @@ body{
 	font-family: 'Arvo', serif;	
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.main-content h2{
 		font-size: 13px;
 		font-family: 'Arvo', serif;	
@@ -134,7 +134,7 @@ body{
 	width: 600px;
 	height: 404px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.main-content img{
 		width: 479px;
 		height: 200px;
@@ -143,9 +143,9 @@ body{
 .explanation{
 	padding-top: 65px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.explanation{
-		padding: auto;
+		padding: 0;
 	}
 }
 .explanation p{
@@ -155,7 +155,7 @@ body{
 	font-weight: bold;
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.explanation p{
 		font-size: 13px;
 		font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -166,7 +166,7 @@ body{
 .explanation .detail-explanation{
 	font-size: 13px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.explanation .detail-explanation{
 		font-size: 9px;
 	}
@@ -181,7 +181,7 @@ body{
 	letter-spacing: 1px;
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.footer h3{
 		font-size: 12px;
 		text-align: center;
@@ -193,7 +193,7 @@ body{
 	justify-content: center;
 	padding: 0;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.footer ul{
 		display: flex;
 		justify-content: space-around;
@@ -209,7 +209,7 @@ body{
 	padding: 0 50px;
 	user-select: none;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:959px){
 	.footer li{
 		font-size: 8px;
 		padding: 5px;
